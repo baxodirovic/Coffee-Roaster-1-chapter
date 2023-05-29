@@ -101,4 +101,13 @@ a {
   background-color: #FEFCF7;
   color: #0E8784;
   cursor: pointer;
+}
+
+.collection__block::before {
+  content: url(../../img/Group\ collect.png);
+  display: inline-block;
+  position: absolute;
+  width: 1111px;
+  height: 196px;
+  margin-left: 75px;
 }/*# sourceMappingURL=main.css.map */
