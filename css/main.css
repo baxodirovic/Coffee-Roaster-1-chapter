@@ -10,6 +10,7 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  width: 1280px;
 }
 
 li {
@@ -23,7 +24,7 @@ a {
 .header__block {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header__navbar ul {
@@ -41,4 +42,13 @@ a {
   letter-spacing: 0.923077px;
   text-transform: uppercase;
   color: #83888F;
+}
+
+.ad__block {
+  height: 600px;
+  background-image: url(../../img/ad__Bitmap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
