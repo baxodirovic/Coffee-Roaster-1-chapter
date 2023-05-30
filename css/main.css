@@ -103,11 +103,64 @@ a {
   cursor: pointer;
 }
 
-.collection__block::before {
-  content: url(../../img/Group\ collect.png);
+.collection__headline {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  text-align: center;
+  color: #83888F;
+  margin-bottom: 50px;
+  margin-top: 125px;
+}
+
+.collection__headline::before {
+  content: url(../../img/collect.png);
   display: inline-block;
   position: absolute;
   width: 1111px;
   height: 196px;
-  margin-left: 75px;
+  top: 730px;
+}
+
+.collection__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.collection__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+}
+
+.collection__img {
+  width: 256px;
+  height: 193px;
+}
+
+.collection__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+  margin: 10px 0px;
+}
+
+.collection__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333D4B;
+  margin: 10px 0px;
 }/*# sourceMappingURL=main.css.map */
