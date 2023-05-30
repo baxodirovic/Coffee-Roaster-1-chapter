@@ -95,12 +95,14 @@ a {
   text-align: center;
   color: #FEFCF7;
   margin-top: 30px;
+  border: none;
 }
 
 .ad__btn:hover {
   background-color: #FEFCF7;
   color: #0E8784;
   cursor: pointer;
+  border: none;
 }
 
 .collection__headline {
@@ -241,6 +243,10 @@ a {
   width: 255px;
 }
 
+.process__block {
+  margin-top: 180px;
+}
+
 .process__title {
   font-family: "Fraunces 9pt";
   font-style: normal;
@@ -262,4 +268,61 @@ a {
   height: 0;
   border: 2px solid #FDD6BA;
   margin-top: 14px;
+}
+
+.process__info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-bottom: 30px;
+}
+
+.info__box {
+  width: 309px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.process__number {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+
+.process__name {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+}
+
+.process__text {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.footer__block {
+  background: #2C343E;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.social__nets {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 230px;
 }/*# sourceMappingURL=main.css.map */

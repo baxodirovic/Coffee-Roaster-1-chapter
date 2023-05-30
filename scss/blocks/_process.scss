@@ -1,3 +1,8 @@
+.process__block {
+    margin-top: 180px;
+}
+
+
 .process__title {
     font-family: 'Fraunces 9pt';
     font-style: normal;
@@ -23,3 +28,48 @@
     margin-top: 14px;
 }
 
+.process__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+.info__box {
+    width: 309px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.process__number {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.process__name {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+
+.process__text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
