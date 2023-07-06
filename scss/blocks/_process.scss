@@ -10,6 +10,9 @@
     font-size: 24px;
     line-height: 32px;
     color: #83888F;
+    @media (max-width:$phone) {
+      text-align: center;
+    }
 }
 
 
@@ -18,6 +21,9 @@
   gap: 336px;
   @media (max-width:$table) {
     gap: 187px;
+  }
+  @media (max-width:$phone) {
+    display: none;
   }
 }
 
@@ -47,6 +53,10 @@
     @media (max-width:$table) {
       gap: 10px;
     }
+    @media (max-width:$phone) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
 }
 
 
@@ -56,6 +66,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    @media (max-width:$phone) {
+      align-items: center;
+    }
 }
 
 
@@ -75,6 +88,9 @@
     font-size: 32px;
     line-height: 36px;
     color: #333D4B;
+    @media (max-width:$phone) {
+      font-size: 28px;
+    }
 }
 
 
@@ -85,4 +101,29 @@
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
+    @media (max-width:$phone) {
+      font-size: 15px;
+      width: 220px;
+      text-align: center;
+    }
+}
+
+
+.process__btn {
+  width: 217px;
+  height: 56px;
+  background: #0E8784;
+  border-radius: 6px;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  margin-top: 30px;
+  border: none;
+  @media (max-width:$phone) {
+    margin-left: 80px;
+  }
 }

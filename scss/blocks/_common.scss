@@ -1,20 +1,24 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 1280px;
+  @media (max-width:$table) {
+    max-width: 768px;
     margin: 0 auto;
-    width: 1280px;
-    @media (max-width:$table) {
-      max-width: 768px;
-      margin: 0 auto;
-    }
+  }
+  @media (max-width:$phone) {
+    max-width: 375px;
+    margin: 0 auto;
+  }
 }
 
 li {

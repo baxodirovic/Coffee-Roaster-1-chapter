@@ -17,6 +17,9 @@
       font-weight: 900;
       line-height: 72px;
     }
+    @media (max-width:$phone) {
+      font-size: 40px;
+    }
 }
 
 .collection__headline::before {
@@ -44,6 +47,9 @@
     justify-content: center;
     padding-left: 90px;
   }
+  @media (max-width:$phone) {
+    padding-left: 45px;
+  }
 }
 
 
@@ -58,12 +64,21 @@
     flex-wrap: wrap;
     height: 230px;
   }
+  @media (max-width:$phone) {
+    width: 280px;
+    flex-wrap: nowrap;
+    height: auto;
+  }
 }
 
 
 .collection__img {
-    width: 256px;
-    height: 193px;
+  width: 256px;
+  height: 193px;
+  @media (max-width:$phone) {
+    width: 200px;
+    height: 150px;
+  }
 }
 
 .collection__title {
