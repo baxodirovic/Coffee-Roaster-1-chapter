@@ -11,6 +11,10 @@
     justify-content: center;
     padding-left: 150px;
     margin-top: 40px;
+    @media (max-width:$table) {
+      height: 500px;
+      padding-left: 40px;
+    }
 }
 
 .ad__headline {
@@ -21,6 +25,15 @@
     line-height: 72px;
     color: #FEFCF7;
     width: 450px;
+    @media (max-width:$table) {
+      color: #FEFCF7;
+      font-size: 48px;
+      font-family: 'Fraunces 9pt';
+      font-style: normal;
+      font-weight: 900;
+      line-height: 48px;
+      width: 360px;
+    }
 }
 
 
@@ -35,6 +48,16 @@
     opacity: 0.8;
     width: 400px;
     margin-top: -32px;
+    @media (max-width:$table) {
+      color: #FEFCF7;
+      font-size: 15px;
+      font-family: Barlow;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      width: 380px;
+      margin-top: -20px;
+    }
 }
 
 

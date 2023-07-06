@@ -14,18 +14,28 @@
 
 
 .process__path {
-    display: flex;
-    gap: 336px;
+  display: flex;
+  gap: 336px;
+  @media (max-width:$table) {
+    gap: 187px;
+  }
 }
 
 
 .process__path::after {
-    content: "";
-    position: absolute;
-    width: 760px;
-    height: 0;
-    border: 2px solid #FDD6BA;
-    margin-top: 14px;
+  content: "";
+  position: absolute;
+  width: 760px;
+  height: 0;
+  border: 2px solid #FDD6BA;
+  margin-top: 14px;
+  @media (max-width:$table) {
+    width: 450px;
+  }
+}
+
+.oval__copy {
+  z-index: 1;
 }
 
 .process__info {
@@ -34,6 +44,9 @@
     justify-content: flex-start;
     gap: 100px;
     margin-bottom: 30px;
+    @media (max-width:$table) {
+      gap: 10px;
+    }
 }
 
 

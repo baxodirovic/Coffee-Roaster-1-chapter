@@ -21,38 +21,71 @@
     text-align: center;
     color: #FEFCF7;
     margin-top: 75px;
+    @media (max-width:$table) {
+      color: #FEFCF7;
+      text-align: center;
+      font-family: Fraunces 9pt;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 48px;
+    } 
 }
 
 .survey__text {
-    font-family: 'Barlow';
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 500px;
+  @media (max-width:$table) {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FEFCF7;
-    mix-blend-mode: normal;
-    opacity: 0.8;
-    width: 500px;
+    line-height: 25px;
+  }
 }
 
 .survey__boxes {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: -200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -200px;
+  @media (max-width:$table) {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 }
 
 
 .survey__box {
-    width: 350px;
-    height: 380px;
-    background: #0E8784;
-    border-radius: 8px;
+  width: 350px;
+  height: 380px;
+  background: #0E8784;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media (max-width:$table) {
+    width: 553px;
+    height: 170px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     justify-content: center;
+  }
+  img {
+    margin: 35px 0px 50px 45px;
+  }
 }
 
 
@@ -64,6 +97,9 @@
     line-height: 32px;
     text-align: center;
     color: #FEFCF7;
+    @media (max-width:$table) {
+      text-align: start;
+    }
 }
 
 .box__text {
@@ -75,4 +111,9 @@
     text-align: center;
     color: #FEFCF7;
     width: 255px;
+    @media (max-width:$table) {
+      width: 355px;
+      text-align: start;
+      margin-top: -5px;
+    }
 }

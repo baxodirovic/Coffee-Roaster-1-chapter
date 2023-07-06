@@ -21,3 +21,8 @@
     color: #83888F;
 }
 
+.header__logo {
+  @media (max-width:$table) {
+    margin-bottom: 0px;
+  }
+}
